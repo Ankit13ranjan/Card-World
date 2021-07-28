@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CardWorld</string>
+    <string name="welcome_to_the_world_of_cards">WELCOME TO THE WORLD OF CARDS</string>
+    <string name="we_have_different_types_of_variety">We have Different types of Variety</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="name_input">xyz</string>
+    <string name="birthday_card">Birthday Card</string>
+    <string name="new_year_card">New Year Card</string>
+    <string name="marriage_anniversary_card">Marriage Anniversary Card</string>
+    <string name="title_activity_new_year_greeting">NewYearGreeting</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="share">share</string>
+</resources>
