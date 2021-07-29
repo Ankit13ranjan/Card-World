@@ -59,7 +59,7 @@
         android:layout_marginTop="21dp"
         android:ems="10"
         android:hint="@string/name_input"
-        android:textAlignment="center"
+        android:textColor="#8F1E1E"
         android:gravity="center_horizontal"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"

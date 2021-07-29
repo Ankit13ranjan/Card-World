@@ -7,47 +7,70 @@
     tools:context=".MarriageGreeting">
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/marriageanniversary"
 
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="123dp" />
+    <FrameLayout
+        android:id="@+id/fl_drawing_view_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-    <TextView
-        android:id="@+id/marriageText"
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/marriageanniversary"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+        <TextView
+            android:id="@+id/marriageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="101dp"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="Happy Marriage Anniversary"
+            android:textAlignment="center"
+            android:textColor="#1979CD"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="611dp"
+            android:text="Always be with Each other\n all the time."
+            android:textColor="@color/teal_200"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+
+    </FrameLayout>
+
+
+    <ImageButton
+        android:id="@+id/ib_sharebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="71dp"
-        android:layout_marginLeft="71dp"
-        android:layout_marginTop="97dp"
-        android:fontFamily="cursive"
-        android:gravity="center_horizontal"
-        android:text="Happy Marriage Anniversary"
-        android:textAlignment="center"
-        android:textColor="@color/design_default_color_primary_variant"
-        android:textSize="29sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="#E6E3DA"
+        android:padding="10dp"
+        android:src="@drawable/ic_share"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="451dp"
-        android:text="Always be with Each other\n all the time."
-        android:textColor="@color/cardview_light_background"
-        android:textSize="19sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/marriageText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
